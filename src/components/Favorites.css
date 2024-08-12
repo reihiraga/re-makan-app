@@ -1,0 +1,15 @@
+.f-grid-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  row-gap: 25px;
+  column-gap: 25px;
+  padding: 10px;
+}
+
+.f-header-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
